@@ -1,0 +1,100 @@
+<p-table [value]="products" dir="rtl">
+    <ng-template pTemplate="header">
+        <tr>
+            <th class="text-center title">#</th>
+            <th class="text-center title">المستخدم</th>
+            <th class="text-center title">رقم التذكرة</th>
+            <th class="text-center title">قيمة التذكرة</th>
+            <th class="text-center title">السينمات</th>
+            <th class="text-center title">عدد الأشخاص</th>
+            <th class="text-center title">عدد مرات الشراء</th>
+            <th class="text-center title">التذكرة</th>
+        </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-product>
+        <tr>
+            <td class="number">{{ product.id }}</td> 
+            <td> 
+                <div class="d-flex align-items-center">
+                   
+                    <div>
+                        <img  [src]="product.image" alt="Ma" width="30" height="30" class="rounded-circle image me-2">
+                    </div>
+                    <div class="d-flex flex-column me-3">
+                        <span class="person-name">{{ product.name }}</span>
+                        <span class="person-number">{{ product.number }}</span>
+                    </div>
+                </div>
+        </td> 
+            <td class="ticketno">{{ product.price }}</td>
+            <td class="value">{{ product.value }}</td>
+            <td class="cinemas">{{ product.cinemas }}</td>
+            <td class="peopleno">{{ product.no_of_people }}</td>
+            <td class="buysno">{{ product.no_of_buys }}</td>
+            <td>
+                <div class="d-flex align-items-center">
+                   
+                    <div>
+                        <img [src]="product.image2" class="rounded-circle image2 me-2">
+                    </div>
+                    <div class="d-flex flex-column me-3">
+                        <span class="person-name">{{ product.name_ticket }}</span>
+                        <span class="person-number">{{ product.file_size }} . {{product.Format}}</span>
+                    </div>
+                    <div>
+                        <img [src]="product.image3" class="rounded-circle image3 me-2">
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </ng-template>
+</p-table>
+
+<div class="d-flex align-items-center justify-content-between mb-4">
+   <div>
+    <nav class="mt-3">
+        <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link numbers"><i class="fa-solid fa-arrow-left"></i></a>
+            </li>
+            <li class="page-item">
+              <a class="page-link numbers">5</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link numbers">4</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link numbers">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link numbers">2</a>
+            </li>
+            <li class="page-item active">
+              <span class="page-link numbers">
+                1
+                <span class="sr-only">(current)</span>
+              </span>
+            </li>
+            <li class="page-item">
+              <a class="page-link numbers"><i class="fa-solid fa-arrow-right"></i></a>
+            </li>
+          </ul>
+          
+          
+      </nav>
+   </div>
+   <div class="d-flex align-items-center justify-content-center">
+<span class="me-2 asnumber">من اصل 250</span>
+
+<button type="button" class="btn btn-secondary dropdown-toggle custom-btn toggw" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  20
+</button>
+  <span class="ms-2 view">عرض</span>
+
+   </div>
+</div>
+
+
+
+

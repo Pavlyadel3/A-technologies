@@ -1,0 +1,58 @@
+#chart{
+  width:100%;
+  height: 160px;
+  border-radius: 8px;
+}
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .additional-info {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .btn-group {
+    margin-right: auto;
+  }
+  .custom-btn {
+    background-color: white; 
+    color: #6c757d; 
+    border: 1px solid #6c757d; 
+  }
+  
+  .custom-btn:hover,
+  .custom-btn:focus {
+    background-color: #e9ecef; 
+    color: #495057;
+    border-color: #6c757d; 
+  }
+  
+  .custom-btn .dropdown-toggle::after {
+    border-top: 0.3em solid #6c757d; 
+  }
+  .anual{
+    font-family: Neo Sans Arabic;
+    font-size: 12.11px;
+    font-weight: 400;
+    line-height: 16.96px;
+    text-align: left;
+    
+  }
+  .analytics{
+    font-family: Neo Sans Arabic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12.9px; 
+  }
+  .date2{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12.9px;
+    text-align: center;
+    
+  }
+  
+  
+  

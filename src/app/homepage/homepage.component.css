@@ -1,0 +1,153 @@
+.edit{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+}
+.ticket1{
+  font-weight: 500;
+  line-height: 28px;
+}
+.right-arrow{
+    background-color: beige;
+    border-radius: 5px;
+}
+.d-flex.justify-content-between {
+    justify-content: space-between; 
+  }
+  .btn-outline-primary {
+    background-color: transparent;
+    border: 1px solid black; 
+    color: black; 
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: gray; 
+    color: white; 
+    border-color: gray; 
+  }
+  
+  .btn-outline-primary .fa-pen-to-square {
+    transition: transform 0.3s ease; 
+  }
+  
+  .btn-outline-primary:hover .fa-pen-to-square {
+    transform: scale(1.1); 
+  }
+  .right-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    color: #007bff; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    width: 36px;
+height: 36px;
+top: 412px;
+left: 876px;
+gap: 0px;
+border: 0.75px 0px 0px 0px;
+opacity: 0px;
+
+  }
+  
+  .right-arrow:hover {
+    background-color: #007bff; 
+    color: white; 
+  }
+  .custom-icon {
+    color: #007bff;
+  }
+  
+  .custom-icon:hover {
+    color: white; 
+  }
+  .form-check-input {
+    transform: scale(1.3); 
+  }
+  
+  .form-check-input:checked {
+    background-color: #007bff; 
+    border-color: #007bff; 
+  }
+  
+  .form-check-label {
+    font-size: 1rem; 
+  }
+  .ticket3{
+    font-family: Neo Sans Arabic;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;    
+  }
+  .working{
+    font-family: Neo Sans Arabic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.74px;
+    text-align: left;
+    
+  }
+  .ticketsbought{
+    font-family: Neo Sans Arabic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.14px;
+    text-align: left;    
+  }
+ 
+  .images{
+    width: 16px;
+height: 16px;
+top: 422px;
+left: 859px;
+gap: 0px;
+opacity: 0px;
+angle: -180 deg;
+
+  }
+  
+  
+  
+  
+  @media (max-width: 576px) {
+    .row {
+      flex-wrap: wrap; 
+    }
+  
+
+    .col-sm-2 {
+      width: 100%; 
+      margin-bottom: 1rem; 
+    }
+  
+    .d-flex.align-items-center {
+      flex-wrap: wrap; 
+    }
+  
+    .col-sm-4.offset-sm-6 {
+      width: 100%; 
+      margin-bottom: 1rem;
+    }
+  
+    .d-flex.align-items-center.justify-content-between {
+      flex-wrap: wrap; 
+      justify-content: center; 
+    }
+  
+    .right-arrow {
+      margin-bottom: 0.5rem; 
+    }
+  
+    .position-relative {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+      .col-sm-4 {
+      text-align: center; 
+      margin-bottom: 0.5rem;
+    }
+  }
+  

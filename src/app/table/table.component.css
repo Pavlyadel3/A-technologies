@@ -1,0 +1,172 @@
+.pagination {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  } 
+  .page-link {
+    display: block;
+    text-decoration: none;
+    color: #007bff; 
+    border: 1px solid #007bff; 
+    border-radius: 4px; 
+    transition: background-color 0.3s, color 0.3s; 
+    
+  }
+  
+  .page-link:hover {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff; 
+    color: white; 
+    border: 1px solid #007bff; 
+  }
+  .custom-btn {
+    background-color: white;
+    color: #6c757d; 
+    border: 1px solid #6c757d;
+  }
+  
+  .custom-btn:hover,
+  .custom-btn:focus {
+    background-color: #e9ecef;
+    color: #495057; 
+    border-color: #6c757d; 
+  }
+  
+  .custom-btn .dropdown-toggle::after {
+    border-top: 0.3em solid #6c757d; 
+  }
+  .title{
+font-family: Neo Sans Arabic;
+font-size: 13.28px;
+font-weight: 400;
+line-height: 23.24px;
+  }
+  .number{
+    font-family: Inter;
+    font-size: 13.28px;
+    font-weight: 400;
+    line-height: 23.24px;
+    text-align: left;
+    
+  }
+  .image{
+    width: 29.88px;
+    height: 29.88px;
+    top: 529.69px;
+    left: 1205.33px;
+    gap: 0px;
+    border-radius: 17.43px 0px 0px 0px;
+    opacity: 0px;
+    
+  }
+  .person-name{
+    font-family: Neo Sans Arabic;
+    font-size: 11.62px;
+    font-weight: 400;
+    line-height: 19.92px;
+    text-align: left;
+  }
+  .person-number{
+    font-family: Poppins;
+    font-size: 9.96px;
+    font-weight: 400;
+    line-height: 19.92px;
+    text-align: left;
+    
+  }
+  .ticketno{
+    font-family: Inter;
+    font-size: 13.28px;
+    font-weight: 400;
+    line-height: 23.24px;
+    text-align: left;
+    
+  }
+  .value{
+    font-family: Inter;
+    font-size: 13.28px;
+    font-weight: 400;
+    line-height: 23.24px;
+    text-align: left;
+    
+  }
+  .cinemas{
+    font-family: Neo Sans Arabic;
+    font-size: 13.28px;
+    font-weight: 400;
+    line-height: 19.92px;
+    text-align: left;
+    
+  }
+  .peopleno{
+    font-family: Inter;
+    font-size: 13.28px;
+    font-weight: 400;
+    line-height: 23.24px;
+    text-align: left;
+    
+  }
+  .buysno{
+    font-family: Neo Sans Arabic;
+    font-size: 13.28px;
+    font-weight: 400;
+    line-height: 23.24px;
+    text-align: left;
+    
+  }
+  .image2{
+    width: 15px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+  .image3{
+    width: 16px;
+height: 16px;
+top: 8.33px;
+left: 0.67px;
+gap: 0px;
+border: 1.25px 0px 0px 0px;
+opacity: 0px;
+
+  }
+  .numbers{
+    font-family: Inter;
+font-size: 13.5px;
+font-weight: 600;
+line-height: 13.5px;
+letter-spacing: -0.01em;
+text-align: center;
+
+  }
+.asnumber{
+  font-family: Neo Sans Arabic;
+  font-size: 10.5px;
+  font-weight: 400;
+  line-height: 12.56px;
+  text-align: left;  
+}
+.toggw{
+  width: Fill (52.5px)px;
+  height: Fixed (31.5px)px;
+  padding: 6px 11.25px 6px 11.25px;
+  gap: 6px;
+  border-radius: 6px 0px 0px 0px;
+  border: 0.75px 0px 0px 0px;
+  opacity: 0px;
+}
+.view{
+  font-family: Neo Sans Arabic;
+  font-size: 10.5px;
+  font-weight: 400;
+  line-height: 12.56px;
+  text-align: left;  
+}
